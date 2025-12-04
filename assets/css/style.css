@@ -1,0 +1,20 @@
+.primary-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.ascent-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* Nav Styles */
+.menu li a{
+    font-size: 250px;
+    color: gray;
+}
+#active{
+    color: black;
+}
