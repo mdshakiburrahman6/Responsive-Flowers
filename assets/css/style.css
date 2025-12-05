@@ -11,10 +11,27 @@
 
 
 /* Nav Styles */
-.menu li a{
-    font-size: 250px;
+/* .menu li a{
+    font-size: 16px;
     color: gray;
+    font-weight: 500;
 }
 #active{
     color: black;
-}
+} */
+
+
+
+
+/* ==============================
+Mobile Responsive
+=================================*/
+/* 
+@media screen and (max-width:576px) {
+    .menu-item{
+        display: none;
+    }
+    .header{
+        margin: 0;
+    }
+} */

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Flowers</title>
     <!-- Linkup Tailwind -->
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,15 +13,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <body>
-    <header class="max-w-6xl sm:p-10 lg:py-0 mx-auto">
-        <nav class="flex justify-between items-center mt-8">
+    <header class="max-w-6xl mx-auto px-4">
+        <nav class="flex justify-between items-center mt-4 md:mt-6 lg:mt-6">
             <img src="assets/img/logo.png" alt="LOGO">
             <div class="items-center">
-                <ul class="menu flex gap-10 items-center primary-font" id="active">
-                    <li><a class="text-black-500 " href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a class="align-middle" href="#"><i class="fa-solid fa-cart-shopping mr-1"></i>Cart($56)</a></li>
+                <ul class="menu flex gap-10 items-center primary-font">
+                    <li><a class="hidden md:block lg:block text-black-600 font-[500]" href="#">Home</a></li>
+                    <li><a class="hidden md:block lg:block text-stone-950 md:text-zinc-600 lg:text-zinc-600" href="#">Shop</a></li>
+                    <li><a class="hidden md:block lg:block text-stone-950 md:text-zinc-600 lg:text-zinc-600" href="#">About us</a></li>
+                    <li><a class="align-middle text-stone-950 md:text-zinc-600 lg:text-zinc-600" href="#"><i class="fa-solid fa-cart-shopping mr-1"></i>Cart($56)</a></li>
                 </ul>
             </div>
         </nav>
