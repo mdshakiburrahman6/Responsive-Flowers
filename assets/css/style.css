@@ -1,37 +1,20 @@
 .primary-font{
+      font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.text-font{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
-.ascent-font{
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+.secondary-font{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
-
-/* Nav Styles */
-/* .menu li a{
-    font-size: 16px;
-    color: gray;
-    font-weight: 500;
-}
-#active{
-    color: black;
-} */
-
-
-
-
-/* ==============================
-Mobile Responsive
-=================================*/
-/* 
-@media screen and (max-width:576px) {
-    .menu-item{
-        display: none;
-    }
-    .header{
-        margin: 0;
-    }
-} */

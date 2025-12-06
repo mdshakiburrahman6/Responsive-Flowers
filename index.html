@@ -13,21 +13,102 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <body>
-    <header class="max-w-6xl mx-auto px-4">
-        <nav class="flex justify-between items-center mt-4 md:mt-6 lg:mt-6">
+    <header class="max-w-6xl mx-auto">
+        <!-- Nav bar -->
+        <nav class="flex justify-between items-center mt-4 md:mt-6 lg:mt-6 px-4">
             <img src="assets/img/logo.png" alt="LOGO">
             <div class="items-center">
                 <ul class="menu flex gap-10 items-center primary-font">
-                    <li><a class="hidden md:block lg:block text-black-600 font-[500]" href="#">Home</a></li>
+                    <li><a class="hidden md:block lg:block text-black-600 font-[450]" href="#">Home</a></li>
                     <li><a class="hidden md:block lg:block text-stone-950 md:text-zinc-600 lg:text-zinc-600" href="#">Shop</a></li>
                     <li><a class="hidden md:block lg:block text-stone-950 md:text-zinc-600 lg:text-zinc-600" href="#">About us</a></li>
-                    <li><a class="align-middle text-stone-950 md:text-zinc-600 lg:text-zinc-600" href="#"><i class="fa-solid fa-cart-shopping mr-1"></i>Cart($56)</a></li>
+                    <li><a class="align-middle text-stone-900 font-[400]" href="#"><i class="fa-solid fa-cart-shopping mr-1"></i>Cart($56)</a></li>
                 </ul>
             </div>
         </nav>
+        <div class="flex flex-col-reverse md:flex-row lg:flex-row justify-between items-end hero-banner mt-7 md:mt-[120px] gap-7">
+            <div class="flex flex-col gap-[15px] w-full md:w-1/2 px-4">
+                <h1 class="secondary-font font-[700] md:leading-[1.3] text-[24px] md:text-[38px] lg:text-[65px]">ALWAYS<span class="text-orange-500"> FRESH <br> FLOWERS</span></h1>
+                <p class="text-[14px] md:text-[22px] text-zinc-600 text-font">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <div class="flex justify-end items-end w-full md:w-1/2 lg:px-4">
+                <img src="assets/img/hero-flower.png" alt="">
+            </div>
+        </div>
     </header>
     <main>
-
+        <!-- Our Plants -->
+        <section class="our-plants px-4 flex flex-col justify-center items-center max-w-6xl mx-auto text-center mt-7 md:mt-[120px]">
+            <h2 class="secondary-font mb-2 md:mb-4 font-[700] md:leading-[1.3] text-[24px] md:text-[32px] lg:text-[50px]"><span class="text-orange-500">Our</span> Plants</h2>
+            <p class="text-font text-[14px] md:text-[22px] mb-6 md:mb-10 lg:mb-10 text-zinc-600 px-[70px] md:px-0 md:w-3xl lg:w-4xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+                <!-- Plants Cards -->
+            <div class="grid grid-cols-2 md:grid-cols-4 justify-center items-center gap-4">
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <img src="assets/img/sample-flower-image.png" alt="Flower Plant">
+                    <div>
+                        <h4>Lily Blossom</h4>
+                        <h3>20 USD</h3>
+                    </div>
+                    <button class="text-font flex items-center justify-center w-full p-3 text-zinc-100 bg-red-500">ADD TO CART</button>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <img src="assets/img/sample-flower-image.png" alt="Flower Plant">
+                    <div>
+                        <h4>Lily Blossom</h4>
+                        <h3>20 USD</h3>
+                    </div>
+                    <button class="text-font flex items-center justify-center w-full p-3 text-zinc-100 bg-red-500">ADD TO CART</button>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <img src="assets/img/sample-flower-image.png" alt="Flower Plant">
+                    <div>
+                        <h4>Lily Blossom</h4>
+                        <h3>20 USD</h3>
+                    </div>
+                    <button class="text-font flex items-center justify-center w-full p-3 text-zinc-100 bg-red-500">ADD TO CART</button>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <img src="assets/img/sample-flower-image.png" alt="Flower Plant">
+                    <div>
+                        <h4>Lily Blossom</h4>
+                        <h3>20 USD</h3>
+                    </div>
+                    <button class="text-font flex items-center justify-center w-full p-3 text-zinc-100 bg-red-500">ADD TO CART</button>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <img src="assets/img/sample-flower-image.png" alt="Flower Plant">
+                    <div>
+                        <h4>Lily Blossom</h4>
+                        <h3>20 USD</h3>
+                    </div>
+                    <button class="text-font flex items-center justify-center w-full p-3 text-zinc-100 bg-red-500">ADD TO CART</button>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <img src="assets/img/sample-flower-image.png" alt="Flower Plant">
+                    <div>
+                        <h4>Lily Blossom</h4>
+                        <h3>20 USD</h3>
+                    </div>
+                    <button class="text-font flex items-center justify-center w-full p-3 text-zinc-100 bg-red-500">ADD TO CART</button>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <img src="assets/img/sample-flower-image.png" alt="Flower Plant">
+                    <div>
+                        <h4>Lily Blossom</h4>
+                        <h3>20 USD</h3>
+                    </div>
+                    <button class="text-font flex items-center justify-center w-full p-3 text-zinc-100 bg-red-500">ADD TO CART</button>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <img src="assets/img/sample-flower-image.png" alt="Flower Plant">
+                    <div>
+                        <h4>Lily Blossom</h4>
+                        <h3>20 USD</h3>
+                    </div>
+                    <button class="text-font flex items-center justify-center w-full p-3 text-zinc-100 bg-red-500">ADD TO CART</button>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
